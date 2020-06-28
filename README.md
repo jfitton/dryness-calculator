@@ -1,2 +1,2 @@
-# Example
-An example greeter plugin
+# Dryness Calculator plugin for Runelite
+This external plugin informs users of the expected number of drops to have received from an action based on the drop rate and number of actions completed. Additionally, it allows users to calculate both the probability of receiving a certain number (K) of drops within a certain number of actions (N) as well as the probability of receiving K or fewer drops within N actions.
