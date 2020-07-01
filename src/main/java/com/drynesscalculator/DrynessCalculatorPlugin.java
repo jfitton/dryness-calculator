@@ -26,12 +26,6 @@ public class DrynessCalculatorPlugin extends Plugin{
     @Inject
     private ClientToolbar clientToolbar;
 
-    @Inject
-    private DrynessCalculatorConfig config;
-
-    @Provides
-    DrynessCalculatorConfig getConfig(ConfigManager configManager) { return configManager.getConfig(DrynessCalculatorConfig.class);}
-
     @Override
     protected void startUp(){
         panel = injector.getInstance(DrynessCalculatorPanel.class);
